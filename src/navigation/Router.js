@@ -4,6 +4,10 @@ import {NavigationContainer} from '@react-navigation/native';
 import HomeScreen from '../screens/Home';
 import TabNavigator from './TabNavigator';
 import AddList from '../screens/AddList';
+import ExistingListScreen from '../screens/ExistingList';
+import AddItemScreen from '../screens/AddItem';
+import AddListItemScreen from '../screens/AddListItem';
+import ViewListItemsScreen from '../screens/ViewListItems';
 
 const Stack = createStackNavigator();
 
@@ -18,6 +22,10 @@ const Router = props => {
         />
         <Stack.Screen name={'Start Shopping!'} component={TabNavigator}/>
         <Stack.Screen name={'Add List'} component={AddList}/>
+        <Stack.Screen name={'Existing List'} component={ExistingListScreen}/>
+        <Stack.Screen name={'Add Item'} component={AddItemScreen}/>
+        <Stack.Screen name={'Add List Item'} component={AddListItemScreen}/>
+        <Stack.Screen name={'View List Items'} component={ViewListItemsScreen}/>
       </Stack.Navigator>
     </NavigationContainer>
   );

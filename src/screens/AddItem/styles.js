@@ -38,14 +38,14 @@ const styles = StyleSheet.create({
     color: 'black',
     borderColor: 'lightgrey',
   },
-  store: {
+  price: {
     fontSize: 16,
     marginBottom: 15,
     borderBottomWidth: 1.0,
     color: 'black',
     borderColor: 'lightgrey',
   },
-  date: {
+  quantity: {
     fontSize: 16,
     borderBottomWidth: 1.0,
     color: 'black',
